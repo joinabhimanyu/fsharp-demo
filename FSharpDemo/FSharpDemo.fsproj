@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net461</TargetFramework>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="ActivePatterns.fs" />
+    <Compile Include="ArrayTests.fs" />
+    <Compile Include="Classes.fs" />
+    <Compile Include="ObjectExpression.fs" />
+    <Compile Include="RecordTest.fs" />
+    <Compile Include="VariantTypes.fs" />
+    <Compile Include="FSharpDemo.fs" />
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="..\.paket\Paket.Restore.targets" />
+</Project>
